@@ -98,14 +98,14 @@ void calculator_menu(void)
             getchar();
             break;
         case PRIME:
-            printf("\n\t%d / %d = %d\nEnter to continue",
+            printf("\n\t%d = %d\nEnter to continue",
             calculator_operand1,
             prime(calculator_operand1));
 
             __fpurge(stdin);
             getchar();
             break;
-        case
+        case 5:
             exit(0);
             break;
         default:
